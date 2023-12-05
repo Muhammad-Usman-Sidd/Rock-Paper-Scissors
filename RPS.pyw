@@ -38,9 +38,9 @@ root.resizable(width=False, height=False)
 root.title("Rock-Paper-Scissors Game")
 
 # Load images
-rock_img = Image.open("Images/Rock.jpg").resize((100, 100))
-paper_img = Image.open("Images/Paper.jpg").resize((100, 100))
-scissors_img = Image.open("Images/Scissors.jpg").resize((100, 100))
+rock_img = Image.open("Rock.jpg").resize((100, 100))
+paper_img = Image.open("Paper.jpg").resize((100, 100))
+scissors_img = Image.open("Scissors.jpg").resize((100, 100))
 
 # Convert PIL Images to PhotoImage
 rock_img = ImageTk.PhotoImage(rock_img)
